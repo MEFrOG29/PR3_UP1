@@ -1,0 +1,22 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="HelloApp.Views.ContainersView">
+    <StackPanel Spacing="10">
+    <StackPanel Orientation="Horizontal">
+        <TextBlock Text="One" FontSize="10"/>
+        <TextBlock Text="Two" FontSize="15"/>
+        <TextBlock Text="Three" FontSize="20"/>
+        <TextBlock Text="Four" FontSize="25"/>
+    </StackPanel>
+
+    <StackPanel Orientation="Vertical">
+        <TextBlock Text="Text 1" FontSize="12"/>
+        <TextBlock Text="Text 2" FontSize="18"/>
+        <TextBlock Text="Text 3" FontSize="24"/>
+        <TextBlock Text="Text 4" FontSize="30"/>
+    </StackPanel>
+</StackPanel>
+</UserControl>
